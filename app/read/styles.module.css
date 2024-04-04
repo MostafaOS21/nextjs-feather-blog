@@ -1,0 +1,80 @@
+.articleContainer {
+}
+
+/* headers */
+.articleContainer h1,
+.articleContainer h2,
+.articleContainer h3 {
+  @apply font-semibold mt-12 mb-5;
+}
+
+.articleContainer h1 {
+  @apply !text-[40px];
+}
+
+.articleContainer h2 {
+  @apply !text-[35px];
+}
+
+.articleContainer h3 {
+  @apply !text-[30px];
+}
+
+/* Lists and Paragraph */
+.articleContainer p,
+.articleContainer ul,
+.articleContainer ol {
+  @apply text-[19px];
+}
+
+.articleContainer li {
+  @apply py-2;
+}
+
+.articleContainer ul,
+.articleContainer ol {
+  @apply px-4;
+}
+
+.articleContainer ul {
+  @apply list-disc;
+}
+
+.articleContainer ol {
+  @apply list-decimal;
+}
+
+/* Code */
+.articleContainer div[class*="code"] {
+  @apply !bg-gray-900 !text-white !p-4 !rounded-sm !my-4 font-mono;
+}
+
+/* Anchor */
+.articleContainer a {
+  @apply underline;
+}
+
+/* Blockquote */
+.articleContainer blockquote {
+  @apply border-l-4 border-gray-900 p-4 my-4 text-[19px];
+}
+
+/* Image */
+.articleContainer img {
+  @apply mx-auto;
+}
+
+/* Scrollbar */
+/* Custom scrollbar */
+.styledScrollbar::-webkit-scrollbar {
+  @apply w-[6px];
+}
+
+.styledScrollbar::-webkit-scrollbar-track {
+  @apply bg-secondary;
+}
+
+.styledScrollbar::-webkit-scrollbar-thumb {
+  @apply bg-gray-400;
+  border-radius: 5px; /* roundness of the thumb */
+}

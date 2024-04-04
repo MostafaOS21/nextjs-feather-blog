@@ -47,9 +47,15 @@
   <p>Follow recommended Next.js directory structure for components, pages, etc.</p>
   <p>Redux store and actions are located in the <code>redux</code> directory.</p>
 
+
+
   <h3>Deployment</h3>
   <p>Instructions for deploying a Next.js application can be found here: <a href="https://nextjs.org/learn-pages-router/basics/deploying-nextjs-app">Deploying a Next.js App</a></p>
 
   <p><strong>Note:</strong> This front-end application relies on a separate backend API (NestJS) for data persistence and server-side logic.</p>
+
+  <hr />
+
+  <a href="https://github.com/MostafaOS21/nestjs-feather-blog">Back end</a>
 </body>
 </html>
